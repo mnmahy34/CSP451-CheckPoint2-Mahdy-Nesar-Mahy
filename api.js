@@ -9,3 +9,6 @@ app.get('/users', (req, res) => {
 app.post('/users', (req, res) => {
   res.send("User created");
 });
+app.get('/products', (req, res) => {
+  res.send("List of products");
+});
