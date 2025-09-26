@@ -18,3 +18,7 @@ function query(sql) {
   console.log("Running SQL: " + sql);
   return [];
 }
+
+function disconnect() {
+  console.log("Database disconnected.");
+}
