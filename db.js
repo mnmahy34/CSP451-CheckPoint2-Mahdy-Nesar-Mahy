@@ -13,3 +13,8 @@ function connect() {
 }
 
 module.exports = { connect };
+
+function query(sql) {
+  console.log("Running SQL: " + sql);
+  return [];
+}
